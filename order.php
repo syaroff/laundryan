@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="col-12 col-md-3 my-1">
                                             <label>Harga</label>
-                                            <input type="number" name="harga" id="harga" class="form-control" value="3000" required>
+                                            <input type="number" name="harga" id="harga" class="form-control" value="3000" readonly required>
                                         </div>
                                         <div class="col-12 col-md-3 my-1">
                                             <label>Jumlah</label>
@@ -133,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
     <div id="edit" class="modal " tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
@@ -165,7 +165,7 @@
                             </div>
                             <div class="my-3">
                                 <label>Harga</label>
-                                <input type="number" id="harga2" name="harga2" value="3000" class="form-control">
+                                <input type="number" id="harga2" name="harga2" value="3000" class="form-control" readonly>
                             </div>
                             <div class="my-3">
                                 <label>Jumlah</label>

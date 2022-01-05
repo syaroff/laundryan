@@ -99,8 +99,8 @@
             </center>
         </div>
     </div>
-    <!-- <script>
+    <script>
         window.print();
-    </script> -->
+    </script>
 </body>
 </html>

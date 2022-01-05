@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <title>Dashboard Kurir - Adela Laundry</title>
+    <title>Bukti Transaksi - Adela Laundry</title>
 </head>
 <body class="bg-dark">
     <center>

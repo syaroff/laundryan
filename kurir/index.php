@@ -33,7 +33,7 @@
                             </div>
                             <div class="col-12 col-md-6 px-3">
                                 <form method="post">
-                                    <h3 class="text-center mb-5" style="font-weight: 550;">Sign In | Portal Kurir</h3>
+                                    <h3 class="text-center mb-5" style="font-weight: 550;">Sign In</h3>
                                     <div class="mb-3">
                                         <label class="mb-2">Username</label>
                                         <input type="text" name="username" class="form-control" placeholder="Masukkan text disini" required>

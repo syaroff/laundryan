@@ -26,9 +26,10 @@
     <div class="card p-0 col-8 my-5">
         <div class="card-body">
             <div class="col-12 col-md-7 my-3 d-flex">
+                <a href="dashboard.php?id=all" class="btn btn-dark">All</a>
                 <button id="btn-search" class="btn btn-dark"><span class="bi-search"></span></button>
                 <input id="search" type="text" class="form-control" placeholder="Search Here">
-                <a href="dashboard.php?id=all" class="btn btn-dark">All</a>
+                <a href="../db/signout.php" class="btn btn-danger">LogOut</a>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered">
@@ -58,7 +59,7 @@
                 e.preventDefault();
                 let query = $('#search').val();
                 window.location.href = "dashboard.php?search=" + query;
-            });
+        });
     </script>
 </body>
 </html>

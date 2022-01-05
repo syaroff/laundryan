@@ -53,7 +53,7 @@
                 <td><?= $orderan['hatot']; ?></td>
                 <td>
                     <a href="bukti.php?id=<?= $orderan['id_order']?>" class="btn btn-primary my-2">Print</a>
-                    <button class="btn btn-warning my-2" onclick="edit('<?= $orderan['nama_pengorder'] ?>','<?= $orderan['jenis_laudry'] ?>','<?= $orderan['harga'] ?>','<?= $orderan['jumlah'] ?>','<?= $orderan['ongkir'] ?>','<?= $orderan['alamat'] ?>','<?= $orderan['kode_promo'] ?>','<?= $orderan['id_order'] ?>')">Edit</button>
+                    <button class="btn btn-warning my-2" onclick="edit('<?= $orderan['nama_pengorder'] ?>','<?= $orderan['jenis_laudry'] ?>','<?= $orderan['harga'] ?>','<?= $orderan['jumlah'] ?>','<?= $orderan['ongkir'] ?>','<?= $orderan['alamat'] ?>','<?= $orderan['kode_promo'] ?>','<?= $orderan['no_wa'] ?>','<?= $orderan['id_order'] ?>')">Edit</button>
                     <a href="db/deleteOrder.php?id=<?=$orderan['id_order'];?>" class="btn btn-danger my-2">Delete</a>
                 </td>
             </tr>
