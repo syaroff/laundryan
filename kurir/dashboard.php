@@ -36,6 +36,7 @@
                     <thead class="table-dark text-center">
                         <th>NO</th>
                         <th>Nama Pengorder</th>
+                        <th>Nama Pengorder</th>
                         <th>Jenis Laundry</th>
                         <th>Alamat</th>
                         <th>No.Whatsapp</th>

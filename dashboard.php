@@ -108,6 +108,7 @@
                                     <thead class="table-light">
                                         <tr>
                                             <th>No</th>
+                                            <th>ID Pesanan</th>
                                             <th>Nama Pelanggan</th>
                                             <th>Tanggal</th>
                                             <th>Jenis Laundry</th>
@@ -115,7 +116,8 @@
                                             <th>Jumlah</th>
                                             <th>Ongkir</th>
                                             <th>Alamat</th>
-                                            <th>Status</th>
+                                            <th>Status Pembayaran</th>
+                                            <th>Status Order</th>
                                             <th>Kode Promo</th>
                                             <th>No.Wa</th>
                                             <th>Total Harga</th>

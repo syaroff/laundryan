@@ -25,7 +25,11 @@
                 </li>
                 <li>
                     <a href="laporan.php?" class="nav-link px-0 align-middle text-white">
-                        <i class="fs-4 bi-journal-bookmark-fill"></i> <span class="ms-1 d-none d-sm-inline">Laporan</span></a>
+                        <i class="fs-4 bi-journal-bookmark-fill"></i> <span class="ms-1 d-none d-sm-inline">Laporan Pendapatan</span></a>
+                </li>
+                <li>
+                    <a href="log.php?" class="nav-link px-0 align-middle text-white">
+                        <i class="fs-4 bi-journal-bookmark-fill"></i> <span class="ms-1 d-none d-sm-inline">Laporan Kurir</span></a>
                 </li>
             </ul>
             <hr>

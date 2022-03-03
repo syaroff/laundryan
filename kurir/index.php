@@ -64,6 +64,7 @@
             $sql_login=mysqli_query($konek,"SELECT * FROM tbl_user WHERE pasword=MD5('$_POST[pasword]') AND username='$_POST[username]'");
             $row = mysqli_fetch_assoc($sql_login);
             if(mysqli_num_rows($sql_login)) {
+                $_SESSION['id_user'] = $row['id_user'];
                 $_SESSION['username'] = $_POST['username'];
                 $_SESSION['level'] = $row['level'];
                 header("Location: dashboard.php?id=all");
